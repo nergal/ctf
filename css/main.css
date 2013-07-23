@@ -1,0 +1,33 @@
+html, body {
+  background-color: #fff;
+			color: #fff;
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			font-size: 12pt;
+
+}
+
+h1 {
+  font-family: 'Metal Mania', cursive;
+}
+
+.hud {
+  height: 100px;
+  width: 720px;
+  background-color: #000;
+  background-image: url(../media/hud.png);
+  background-repeat: no-repeat;
+  margin-left: 110px;
+  background-position: 5px 5px;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #555;
+}
