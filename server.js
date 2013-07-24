@@ -1,11 +1,7 @@
 var connect = require('connect')
+    , port = process.env.PORT || 5000
 
-// @FIXME
-if (process.argv.length == 4 && process.argv[2] == '-p') {
-    var port = process.argv[3]
-
-    connect.createServer(
-        connect.static(__dirname)
-    ).listen(port)
-}
+connect.createServer(
+    connect.static(__dirname)
+).listen(port)
 
