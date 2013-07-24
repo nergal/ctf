@@ -4,7 +4,8 @@
   "description": "ERROR: No README.md file found!",
   "main": "impactConnectServer.js",
   "dependencies": {
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "connect": "~2.8.4"
   },
   "devDependencies": {},
   "scripts": {
