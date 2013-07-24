@@ -13,5 +13,9 @@
   },
   "repository": "",
   "author": "nergal <me@2mio.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
 }
