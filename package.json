@@ -5,7 +5,8 @@
   "main": "impactConnectServer.js",
   "dependencies": {
     "socket.io": "~0.9.16",
-    "connect": "~2.8.4"
+    "connect": "~2.8.4",
+    "coffeescript": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {

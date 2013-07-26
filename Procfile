@@ -1,2 +1,2 @@
-web: node server/web.js
-worker: node server/worker.js
+web: coffee server/web.coffee
+worker: coffee server/worker.coffee
