@@ -1,2 +1,2 @@
-web: coffee server/web.coffee
-worker: coffee server/worker.coffee
+web: ./node_modules/.bin/coffee server/web.coffee
+worker: ./node_modules/.bin/coffee server/worker.coffee

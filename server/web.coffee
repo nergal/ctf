@@ -1,10 +1,12 @@
 connect = require 'connect'
+serve_static = require 'serve-static'
+logger = require 'morgan'
 path = require 'path'
 
 root = path.join __dirname, '..'
 
 connect()
-    .use(connect.static root)
-    .use(connect.logger 'dev')
+    .use(serve_static root)
+    .use(logger 'dev')
     .listen(process.env.PORT or 5000)
 
